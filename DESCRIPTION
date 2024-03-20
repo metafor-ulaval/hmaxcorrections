@@ -1,0 +1,24 @@
+Package: hmaxcorrections
+Type: Package
+Title: Implementation of Roussel et al (2017)
+Version: 0.1.0
+Author: Jean-Romain Roussel
+Authors@R: c(person("Jean-Romain", "Roussel", email = "jean-romain.roussel.1@ulaval.ca", role = c("aut", "cre", "cph")))
+Description: Implementation of Roussel et al (2017) <https://doi.org/10.1016/j.jag.2023.103267> correction for the maximum height derived from lidar data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    methods,
+    lidR,
+    stats,
+    data.table (>= 1.12.0),
+Suggests:
+    ggplot2,
+    dplyr,
+    sf,
+    terra
+LinkingTo: 
+    cpp11
